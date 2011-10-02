@@ -13,11 +13,11 @@ URL::Check - check a list of url and react (emails etc.) in case of failures
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 =head1 SYNOPSIS
@@ -29,7 +29,8 @@ This module is not aimed at being used directly, but via the script url-check.pl
 If no --config argument is set, the value is taken from environment variable URL_CHECK_CONFIG
 
 more examples can be found in the t/resources/config directory but consist in default parameter (mailto etc., then each url to be tested can be followed by dedicated test (time.delay, xpath etc.)
- 
+
+More info can be found on http://alexandre-masselot.blogspot.com/2011/10/perl-url-checker.html 
 
 =head1 SUBROUTINES/METHODS
 
